@@ -1,5 +1,6 @@
 package com.codingWithSalah.reflection;
 
+
 public class Cat {
     private String name;
     private int age;
@@ -9,11 +10,17 @@ public class Cat {
         this.age = age;
     }
 
+    public Cat(){
+
+    }
+
     public String getName() {
         return name;
     }
 
-
+   public void withParameters(int x,int y){
+       System.out.println(x+y);
+   }
     public int getAge() {
         return age;
     }

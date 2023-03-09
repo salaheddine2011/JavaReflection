@@ -26,6 +26,13 @@ public class MainReflexion {
             }
         }
 
+        for (Method method: catMethod){
+                System.out.println(method.getName()+" "+method.getModifiers());
+
+        }
+
+
+
     }
 
 }
